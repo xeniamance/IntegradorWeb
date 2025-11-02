@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+.contactanosMain{
+    background-color: #fff;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 30px 0px;
+    border-radius: 15px;
+}
+
+.contactanosH1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #004aad;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 30px;
+}
+
+input, textarea{
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #969696;
+}
+
+textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: #004aad;
+    color: #fafafa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
