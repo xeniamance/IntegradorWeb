@@ -5,9 +5,9 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f6f6e9;
     color: #333;
     text-align: center;
 }
@@ -16,14 +16,12 @@ body {
     background-color: #fff;
     max-width: 600px;
     margin: 30px auto;
-    padding: 30px 0px;
+    padding: 10px 0px;
     border-radius: 15px;
 }
 
 .contactanosH1{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #004aad;
+    color: #61a6ab;
 }
 
 
@@ -31,7 +29,7 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 0px;
+    padding: 10px 0px;
     background-color: #fff;
     border-radius: 15px;
 }
@@ -39,7 +37,7 @@ form{
 div{
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 input{
@@ -60,9 +58,42 @@ textarea{
 button{
     width: 100px;
     height: 35px;
-    background-color: #004aad;
+    background-color: #61a6ab;
     color: #fafafa;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.errorP{
+    color: red;
+    margin-bottom: 10px;
+}
+
+.datosEnviadosDivFinal{
+    background-color: #fff;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.datosEnviadosH3Final{
+    color: #61a6ab;
+    margin-bottom: 10px;
+}
+
+.datosEnviadosUlFinal{
+    list-style-type: none;
+}
+
+.datosEnviadosUlFinal li{
+    margin-bottom: 8px;
 }

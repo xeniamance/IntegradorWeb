@@ -10,7 +10,7 @@
 </head>
 <body>
     <header class="headerGeneral">
-        <img id="imgLogo" src="../recursos/logo.png" alt="Logo de Books SL">
+        <img id="imgLogo" src="../recursos/logo1.png" alt="Logo de Books SL">
         <nav class="navHeader">
             <ul class="ulHeader">
                 <li class="liHeader"><a class="aHeader" href="index.html">Inicio</a></li>
@@ -21,33 +21,43 @@
     </header>
     <main class="contactanosMain">
         <h1 class="contactanosH1">Contactanos</h1>
-        <p class="contactanosP">Si tienes alguna pregunta o necesitas más información, escribinos:</p>
         <form action="#" method="post">
             <div>
                 <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
+                <input type="text" id="nombre" name="nombre" required maxlength="40">
             </div>
             
             <div>
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required maxlength="100">
             </div>
             
             <div>
                 <label for="asunto">Asunto:</label>
-                <input type="text" id="asunto" name="asunto" required>
+                <input type="text" id="asunto" name="asunto" maxlength="100">
             </div>
-            
+
+            <div>
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required maxlength="10">
+            </div>
+
             <div>
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <textarea id="mensaje" name="mensaje" rows="4" required maxlength="500"></textarea>
             </div>
-            
+            <p class="errorP"></p>
             <button type="submit">Enviar</button>
         </form>
+        <div class="datosEnviadosDiv">
+            <h3 class="datosEnviadosH3"></h3>
+            <ul class="datosEnviadosUl">
+            </ul>
+        </div>
     </main>
     <footer>
         <p>Books SL - 2025 Integrador Web. Todos los derechos reservados.</p>
     </footer>
+    <script src="../logica/contacto.js"></script>
 </body>
 </html>
