@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
 
     <title>Integrador Web</title>
 </head>
+
 <body>
     <header class="headerGeneral">
         <img id="imgLogo" src="../recursos/logo1.png" alt="Logo de Books SL">
@@ -22,20 +24,44 @@
         </nav>
     </header>
     <div>
+        <section class="container portada">
+
+        </section>
         <section class="container bienvenida">
-            <h2>Books SL</h2>
-            <div>
-                <p>Somos Books SL, tu biblioteca digital de confianza. Estamos aquí para ayudarte a encontrar los mejores recursos para tu aprendizaje. Tenemos nuestras instalaciones desde 2020.</p>
-            </div>
+            <h3>"Nunca se termina de aprender a leer. Tal vez como nunca se termine de aprender a vivir."</h3>
+            <h5>-Jorge Luis Borges-</h5>
         </section>
 
         <section class="container">
-            <h2>Nuestros libros</h2>
             <div class="carrousel">
-                <button id="anteriorImagen">Anterior</button>
-                <img src="../recursos/elartedecomer.png" alt="Imagen" id="carrouselImagen">
-                <button id="siguienteImagen">Siguiente</button>
+                <button id="anteriorImagen"><img class="flechas" src="../recursos/flechaI.png"
+                        alt="flechaIzquierda"></button>
+                <img class="imagenCarrousel" src="../recursos/elartedecomer.png" alt="Imagen" id="carrouselImagen">
+                <button id="siguienteImagen"><img class="flechas" src="../recursos/flechaD.png"
+                        alt="flechaDerecha"></button>
             </div>
+        </section>
+        <section class="container sobreNosotros">
+            <h2 class="sobreNosotrosH2">Sobre nosotros</h2>
+            <p>
+                En Books SL amamos los libros y queremos compartir esa pasión con cada lector. Desde San Luis, venimos
+                construyendo una biblioteca digital que crece día a día, pensada para acompañarte en cada momento de
+                lectura.
+            </p>
+            <p>
+                Nuestro propósito es acercarte títulos que inspiren, eduquen y entretengan, porque creemos que leer es
+                una de las mejores formas de crecer y conectar con el mundo. En nuestro catálogo encontrarás desde
+                clásicos indispensables hasta nuevas voces de la literatura contemporánea, todos seleccionados con
+                cuidado y dedicación.
+            </p>
+            <p>
+                En Books SL valoramos la comodidad y la accesibilidad: por eso trabajamos para que tengas tus libros
+                favoritos siempre a un clic de distancia, sin importar dónde estés.
+            </p>
+            <p>
+                Queremos que disfrutes del placer de leer, que descubras nuevos autores y que encuentres en nuestra
+                biblioteca digital un espacio donde las historias nunca se agotan.
+            </p>
         </section>
     </div>
     <footer>
@@ -43,4 +69,5 @@
     </footer>
     <script src="../logica/carrousel.js"></script>
 </body>
+
 </html>

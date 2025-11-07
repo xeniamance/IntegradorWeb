@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         //expresiones regulares
         const nombreValido =/^[a-zA-Z\s]{1,40}$/.test(nombre); //solo letras y espacios, max 40 caracteres
-        const emailValido = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email); //formato de email
+        const emailValido = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email); //formato de email algo@algo.algo
         const telValido = /^[0-9]{10}$/.test(telefono); //telefono de 10 digitos y de numeros
 
         let mensajeError = '';
