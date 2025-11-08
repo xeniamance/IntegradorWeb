@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => { //espero que el dom se cargue antes de ejecutar
     
     const imagenes = [ //array donde guardo donde estan las imagenes
-        "../recursos/donquijotedelamancha.jpg",
-        "../recursos/elprincipito.jpg",
-        "../recursos/elseniordelosanilloslacomunidaddelanillo.jpg",
-        "../recursos/harrypotterylacamarasecreta.jpg",
-        "../recursos/harrypotteryelcalizdefuego.jpg",
-        "../recursos/lascronicasdenarniaelsobrinodelmago.jpg",
-        "../recursos/harrypotterylapiedrafilosofal.jpg",
-        "../recursos/peterpanywendy.jpg"
+        "./recursos/donquijotedelamancha.jpg",
+        "./recursos/elprincipito.jpg",
+        "./recursos/elseniordelosanilloslacomunidaddelanillo.jpg",
+        "./recursos/harrypotterylacamarasecreta.jpg",
+        "./recursos/harrypotteryelcalizdefuego.jpg",
+        "./recursos/lascronicasdenarniaelsobrinodelmago.jpg",
+        "./recursos/harrypotterylapiedrafilosofal.jpg",
+        "./recursos/peterpanywendy.jpg"
     ];
 
     
