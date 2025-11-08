@@ -10,12 +10,28 @@ body {
     background-color: #f4f4f4;
     color: #333;
     text-align: center;
+    min-height: 120vh;
+}
+
+.contenedorSugerencia{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.sugerencia{
+    margin: 20px auto;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #4d4d4d;
 }
 
 .contactanosMain{
     background-color: #fff;
     max-width: 600px;
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 10px 0px;
     border-radius: 15px;
 }
